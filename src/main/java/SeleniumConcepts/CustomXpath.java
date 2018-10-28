@@ -16,9 +16,9 @@ public class CustomXpath {
         driver.manage().window().maximize(); //Maximize window
         driver.manage().deleteAllCookies(); //Delete all the cookies
 
-       /* Dynamic wait
+//        Dynamic wait
         driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
-        driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);*/
+        driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 
         driver.get("http://www.half.ebay.com"); //enter URL
 

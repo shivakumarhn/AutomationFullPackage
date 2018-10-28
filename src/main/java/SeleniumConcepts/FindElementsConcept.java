@@ -32,11 +32,11 @@ public class FindElementsConcept {
 //        Size of linksList
         System.out.println("Total number of links count " + linksList.size());
 
-        /* Iterating using foreach loop
+//         Iterating using foreach loop
         for (WebElement element : linksList) {
            String linkText= element.getText();
             System.out.println(linkText);
-        } */
+        }
 
        /* Iterating using Iterator method
        Iterator<WebElement> itr = linksList.iterator();
